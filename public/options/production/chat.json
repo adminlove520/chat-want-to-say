@@ -58,7 +58,7 @@
             "options": {
                 "resolveKeyTexts": ["想呀", "你还能把天上星星摘给我？"],
                 "rejectKeyTexts": ["不想"],
-                "msgs": [
+                "msrejectHitTextsgs": [
                     "我想赠你满天星斗～",
                     "即使时间以天文单位流逝，我依旧会",
                     "陪你度过漫长岁月"
@@ -76,7 +76,7 @@
             "options": {
                 "resolveKeyTexts": ["因为你是我最好的哥哥", "因为我们天作之合？"],
                 "rejectKeyTexts": ["不知道呀"],
-                "msgs": [
+                "rejectHitTexts": [
                     "因为无论如何天蝎座总会与天蝎座星际相遇，",
                     "它们俩是共生星系，",
                     "即使我将时间加速，最终它们也不会分离，直至宇宙膨胀"
