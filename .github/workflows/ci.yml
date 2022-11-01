@@ -41,7 +41,7 @@ jobs:
 
       # 运行构建脚本
       - name: Build frontend
-        run: sh preview-pages/build.sh
+        run: sh bin/build.sh
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
