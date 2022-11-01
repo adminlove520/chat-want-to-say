@@ -48,7 +48,54 @@
         "msgs": ["<letter src='options/preview/letter.json'/>"],
         "triggerNextAction": { "type": "componentClose" }
     },
-    { "msgs": ["没写过信，头一次。啊哈哈哈~"] },
+    { "msgs": ["生日快乐，傻瓜~"] },
+    { "msgs": ["任何时候，哥永远在，永远宠爱你~"] },
+    {
+        "msgs": ["想看星星嘛？"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["想呀", "你还能把天上星星摘给我？"],
+                "rejectKeyTexts": ["不想"],
+                "msgs": [
+                    "我想赠你满天星斗～",
+                    "即使时间以天文单位流逝，我依旧会",
+                    "陪你度过漫长岁月"
+                ]
+            }
+        }
+    },
+    { "msgs": ["<img src='options/preview/1998.11.08.jpg'/>"] },
+    { "msgs": ["这是1997年11月08号那天天蝎座α-心宿二星云图~"] },
+    {
+        "msgs": ["你知道为什么我们会相遇且如此默契嘛？"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["因为你是我最好的哥哥", "因为我们天作之合？"],
+                "rejectKeyTexts": ["不知道呀"],
+                "msgs": [
+                    "因为无论如何天蝎座总会与天蝎座星际相遇，",
+                    "它们俩是共生星系，",
+                    "即使我将时间加速，最终它们也不会分离，直至宇宙膨胀"
+                ]
+            }
+        }
+    },
+    { "msgs": ["<img src='options/preview/天秤&天蝎2.jpg'/>"] },
+    { "msgs": ["这是天蝎座与天秤座（ScorpioNebulae&Libra）"] },
+    { "msgs": ["不要问我为啥不放视频（因为这玩意帧数太高了，你哥CPU&GPU真被榨干了）"] },
+    { "msgs": ["<img src='options/preview/Charcoal_Nebula.jpg'/>"] },
+    { "msgs": ["<img src='options/preview/Myserious_Mountain.jpg'/>"] },
+    { "msgs": ["宇宙真的好奇妙啊~这些结果图都是哥一帧一帧调整优化出来的，"] },
+    { "msgs": ["代码一行一行敲下来的。"] },
+    { "msgs": ["费老鼻子劲呢"] },
+    { "msgs": ["但是很值，"] },
+    { "msgs": ["因为是你"] },
+    { "msgs": ["因为你是我妹"] },
+    { "msgs": ["感动嘛 哈哈是不是要哭啦（感动の泪水）"] },
     { "msgs": ["<img src='options/preview/感动到哭.png'/>"] },
-    { "msgs": ["完成..."], "msgInputSpeed": 80 }
+    { "msgs": ["生日快乐，蓉蓉~"], "msgInputSpeed": 80 }
 ]
