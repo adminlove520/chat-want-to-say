@@ -16,21 +16,7 @@
             }
         }
     },
-    {
-        "msgs": ["知道我现在在想什么吗？"],
-        "msgInputSpeed": 80,
-        "triggerNextAction": {
-            "type": "userInput",
-            "options": {
-                "resolveKeyTexts": ["想我", "想女朋友"],
-                "rejectKeyTexts": ["不想"],
-                "rejectHitTexts": [
-                    "猜错了，给你个提示，是个人～",
-                    "你肯定是故意猜错的..."
-                ]
-            }
-        }
-    },
+    { "msgs": ["你知道我现在在想什么嘛？"], "msgInputSpeed": 80 },
     {
         "msgs": ["我现在当然是想改Bug", "我现在当然是在想你啦～"],
         "msgInputSpeed": 80
@@ -45,7 +31,7 @@
         "msgInputSpeed": 80
     },
     {
-        "msgs": ["<letter src='options/production/letter.json'/>"],
+        "msgs": ["<letter src='options/preview/letter.json'/>"],
         "triggerNextAction": { "type": "componentClose" }
     },
     { "msgs": ["生日快乐，傻瓜~"] },
@@ -56,18 +42,19 @@
         "triggerNextAction": {
             "type": "userInput",
             "options": {
-                "resolveKeyTexts": ["想呀", "你还能把天上星星摘给我？"],
+                "resolveKeyTexts": ["想呀", "想看"],
                 "rejectKeyTexts": ["不想"],
-                "msrejectHitTextsgs": [
-                    "我想赠你满天星斗～",
-                    "即使时间以天文单位流逝，我依旧会",
-                    "陪你度过漫长岁月"
+                "rejectHitTexts": [
+                    "不允许不想，哼╭(╯^╰)╮～"
                 ]
             }
         }
     },
-    { "msgs": ["<img src='options/production/1998.11.08.jpg'/>"] },
-    { "msgs": ["这是1997年11月08号那天天蝎座α-心宿二星云图~"] },
+    { "msgs": ["我想赠你满天星斗～"], "msgInputSpeed": 80},
+    { "msgs": ["即使时间以天文单位流逝，我依旧会"], "msgInputSpeed": 80},
+    { "msgs": ["陪你度过漫长岁月~"], "msgInputSpeed": 100},
+    { "msgs": ["<img src='options/preview/1998.11.08.jpg'/>"] },
+    { "msgs": ["这是1997年11月08号那天天蝎座α-心宿二星云图~"] , "msgInputSpeed": 100 },
     {
         "msgs": ["你知道为什么我们会相遇且如此默契嘛？"],
         "msgInputSpeed": 80,
@@ -84,11 +71,11 @@
             }
         }
     },
-    { "msgs": ["<img src='options/production/天秤&天蝎2.jpg'/>"] },
+    { "msgs": ["<img src='options/preview/天秤&天蝎2.jpg'/>"] },
     { "msgs": ["这是天蝎座与天秤座（ScorpioNebulae&Libra）"] },
     { "msgs": ["不要问我为啥不放视频（因为这玩意帧数太高了，你哥CPU&GPU真被榨干了）"] },
-    { "msgs": ["<img src='options/production/Charcoal_Nebula.jpg'/>"] },
-    { "msgs": ["<img src='options/production/Myserious_Mountain.jpg'/>"] },
+    { "msgs": ["<img src='options/preview/Charcoal_Nebula.jpg'/>"] },
+    { "msgs": ["<img src='options/preview/Myserious_Mountain.jpg'/>"] },
     { "msgs": ["宇宙真的好奇妙啊~这些结果图都是哥一帧一帧调整优化出来的，"] },
     { "msgs": ["代码一行一行敲下来的。"] },
     { "msgs": ["费老鼻子劲呢"] },
@@ -96,6 +83,6 @@
     { "msgs": ["因为是你"] },
     { "msgs": ["因为你是我妹"] },
     { "msgs": ["感动嘛 哈哈是不是要哭啦（感动の泪水）"] },
-    { "msgs": ["<img src='options/production/感动到哭.png'/>"] },
+    { "msgs": ["<img src='options/preview/感动到哭.png'/>"] },
     { "msgs": ["生日快乐，蓉蓉~"], "msgInputSpeed": 80 }
 ]
