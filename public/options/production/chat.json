@@ -6,7 +6,7 @@
         "triggerNextAction": {
             "type": "userInput",
             "options": {
-                "resolveKeyTexts": ["生日", "我的生日", "你的生日"],
+                "resolveKeyTexts": ["生日", "我的生日"],
                 "rejectKeyTexts": [],
                 "rejectHitTexts": [
                     "给你提示一下，今天是2022年11月08号喔",
@@ -23,7 +23,7 @@
     },
     { "msgs": ["什么你才不信？"], "msgInputSpeed": 100 },
     { "msgs": ["喔还没收到任何礼物？"], "msgInputSpeed": 140 },
-    { "msgs": ["而且人也没到！（逐渐不开心😭）"], "msgInputSpeed": 180 },
+    { "msgs": ["（逐渐不开心😭）"], "msgInputSpeed": 180 },
     { "msgs": ["别别别，别生气，我可是有所准备的。"], "msgInputSpeed": 80 },
     { "msgs": ["礼物已经在路上了喔，人也会到的呢。"], "msgInputSpeed": 80 },
     {
@@ -54,19 +54,19 @@
     { "msgs": ["即使时间以天文单位流逝，我依旧会"], "msgInputSpeed": 80},
     { "msgs": ["陪你度过漫长岁月~"], "msgInputSpeed": 100},
     { "msgs": ["<img src='options/preview/1998.11.08.jpg'/>"] },
-    { "msgs": ["这是1997年11月08号那天天蝎座α-心宿二星云图~"] , "msgInputSpeed": 100 },
+    { "msgs": ["这是1997年11月08号当天天蝎座α-心宿二星云图~"] , "msgInputSpeed": 100 },
     {
         "msgs": ["你知道为什么我们会相遇且如此默契嘛？"],
         "msgInputSpeed": 80,
         "triggerNextAction": {
             "type": "userInput",
             "options": {
-                "resolveKeyTexts": ["因为你是我最好的哥哥", "因为我们天作之合？"],
+                "resolveKeyTexts": [],
                 "rejectKeyTexts": ["不知道呀"],
                 "rejectHitTexts": [
                     "因为无论如何天蝎座总会与天蝎座星际相遇，",
                     "它们俩是共生星系，",
-                    "即使我将时间加速，最终它们也不会分离，直至宇宙膨胀"
+                    "即使我将时间加速数倍，最终它们也不会分离，直至宇宙膨胀"
                 ]
             }
         }
