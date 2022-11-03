@@ -1,4 +1,5 @@
 [
+    { "msgs": ["(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤"], "msgInputSpeed": 80 },
     { "msgs": ["蓉蓉，在干嘛呢？"], "msgInputSpeed": 80 },
     {
         "msgs": ["知道今天是什么日子吗？"],
@@ -9,13 +10,17 @@
                 "resolveKeyTexts": ["生日", "我的生日"],
                 "rejectKeyTexts": [],
                 "rejectHitTexts": [
-                    "给你提示一下，今天是2022年11月08号喔",
-                    "这都答不出来吗，我要生气了。",
-                    "好吧，看在你应该不是故意的份上告诉你吧，今天是你的生日～"
+                    "给你提示一下，今天是2022年11月03号喔",
+                    "没想到吧，我计算出来你的农历生日啦~。",
+                    "今天虽然没有蛋糕礼物，但是有我陪你～"
                 ]
             }
         }
     },
+    { "msgs": ["我本来是想的今晚的00:00的时候再让你看到"], "msgInputSpeed": 80 },
+    { "msgs": ["但是怕你觉得一瞬间很孤独，万念俱灰"], "msgInputSpeed": 80 },
+    { "msgs": ["虽然没有了惊喜感，但是有你就够啦~"], "msgInputSpeed": 80 },
+    { "msgs": ["爱你(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤"], "msgInputSpeed": 80 },
     { "msgs": ["你知道我现在在想什么嘛？"], "msgInputSpeed": 80 },
     {
         "msgs": ["我现在当然是想改Bug", "我现在当然是在想你啦～"],
@@ -25,7 +30,7 @@
     { "msgs": ["喔还没收到任何礼物？"], "msgInputSpeed": 140 },
     { "msgs": ["（逐渐不开心😭）"], "msgInputSpeed": 180 },
     { "msgs": ["别别别，别生气，我可是有所准备的。"], "msgInputSpeed": 80 },
-    { "msgs": ["礼物已经在路上了喔，人也会到的呢。"], "msgInputSpeed": 80 },
+    { "msgs": ["礼物已经在路上了喔。"], "msgInputSpeed": 80 },
     {
         "msgs": ["而且还有很多想对你说的话，写成了一封信给你。"],
         "msgInputSpeed": 80
@@ -55,6 +60,8 @@
     { "msgs": ["陪你度过漫长岁月~"], "msgInputSpeed": 100},
     { "msgs": ["<img src='options/preview/1998.11.08.jpg'/>"] },
     { "msgs": ["这是1997年11月08号当天天蝎座α-心宿二星云图~"] , "msgInputSpeed": 100 },
+    { "msgs": ["为什么不是今天？因为星座的运行是依据太阳历，也就是1997.11.8"] , "msgInputSpeed": 100 },
+    { "msgs": ["其实你哥对历法很模糊的，因为没有哪位值得我这么记住她的生日，绞尽脑汁~"] , "msgInputSpeed": 100 },
     {
         "msgs": ["你知道为什么我们会相遇且如此默契嘛？"],
         "msgInputSpeed": 80,
@@ -85,4 +92,5 @@
     { "msgs": ["感动嘛 哈哈是不是要哭啦（感动の泪水）"] },
     { "msgs": ["<img src='options/preview/感动到哭.png'/>"] },
     { "msgs": ["生日快乐，蓉蓉~"], "msgInputSpeed": 80 }
+    { "msgs": ["(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤"], "msgInputSpeed": 80 },
 ]
