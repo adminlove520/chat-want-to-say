@@ -1,4 +1,5 @@
 [
+    { "msgs": ["(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤"], "msgInputSpeed": 80 },
     { "msgs": ["蓉蓉，在干嘛呢？"], "msgInputSpeed": 80 },
     {
         "msgs": ["知道今天是什么日子吗？"],
@@ -90,6 +91,6 @@
     { "msgs": ["因为你是我妹"] },
     { "msgs": ["感动嘛 哈哈是不是要哭啦（感动の泪水）"] },
     { "msgs": ["<img src='options/preview/感动到哭.png'/>"] },
-    { "msgs": ["生日快乐，蓉蓉~"], "msgInputSpeed": 80 }
-    { "msgs": ["(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤"], "msgInputSpeed": 80 },
+    { "msgs": ["生日快乐，蓉蓉~"], "msgInputSpeed": 80 },
+    { "msgs": ["(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤"], "msgInputSpeed": 80 }
 ]
