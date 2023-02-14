@@ -1,17 +1,17 @@
 [
     { "msgs": ["(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤"], "msgInputSpeed": 80 },
-    { "msgs": ["蓉蓉，在干嘛呢？"], "msgInputSpeed": 80 },
+    { "msgs": ["(宝ᴗ宝)"], "msgInputSpeed": 80 },
     {
         "msgs": ["知道今天是什么日子吗？"],
         "msgInputSpeed": 80,
         "triggerNextAction": {
             "type": "userInput",
             "options": {
-                "resolveKeyTexts": ["生日", "我的生日"],
+                "resolveKeyTexts": ["情人节", "爱你的节日"],
                 "rejectKeyTexts": [],
                 "rejectHitTexts": [
-                    "给你提示一下，今天是2022年11月03号喔",
-                    "没想到吧，我计算出来你的农历生日啦~。",
+                    "给你提示一下，今天是2023年2月14号喔",
+                    "是我们相识的第43天哟~。",
                     "今天虽然没有蛋糕礼物，但是有我陪你～"
                 ]
             }
@@ -23,14 +23,14 @@
     { "msgs": ["爱你(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤"], "msgInputSpeed": 80 },
     { "msgs": ["你知道我现在在想什么嘛？"], "msgInputSpeed": 80 },
     {
-        "msgs": ["我现在当然是想改Bug", "我现在当然是在想你啦～"],
+        "msgs": ["我现在当然是想改这个程序的Bug", "我现在当然是在想你啦～"],
         "msgInputSpeed": 80
     },
     { "msgs": ["什么你才不信？"], "msgInputSpeed": 100 },
     { "msgs": ["喔还没收到任何礼物？"], "msgInputSpeed": 140 },
     { "msgs": ["（逐渐不开心😭）"], "msgInputSpeed": 180 },
     { "msgs": ["别别别，别生气，我可是有所准备的。"], "msgInputSpeed": 80 },
-    { "msgs": ["礼物已经在路上了喔。"], "msgInputSpeed": 80 },
+    { "msgs": ["礼物虽迟但到哈哈哈。"], "msgInputSpeed": 80 },
     {
         "msgs": ["而且还有很多想对你说的话，写成了一封信给你。"],
         "msgInputSpeed": 80
@@ -39,8 +39,8 @@
         "msgs": ["<letter src='options/preview/letter.json'/>"],
         "triggerNextAction": { "type": "componentClose" }
     },
-    { "msgs": ["生日快乐，傻瓜~"] },
-    { "msgs": ["任何时候，哥永远在，永远宠爱你~"] },
+    { "msgs": ["节日快乐，亲爱哒~"] },
+    { "msgs": ["我在呢，一直都在，永远宠爱你~"] },
     {
         "msgs": ["想看星星嘛？"],
         "msgInputSpeed": 80,
@@ -55,13 +55,13 @@
             }
         }
     },
-    { "msgs": ["我想赠你满天星斗～"], "msgInputSpeed": 80},
-    { "msgs": ["即使时间以天文单位流逝，我依旧会"], "msgInputSpeed": 80},
-    { "msgs": ["陪你度过漫长岁月~"], "msgInputSpeed": 100},
+    { "msgs": ["我想赠你满天星斗～"], "msgInputSpeed": 80 },
+    { "msgs": ["即使时间以天文单位流逝，我依旧会"], "msgInputSpeed": 80 },
+    { "msgs": ["陪你度过漫长岁月~"], "msgInputSpeed": 100 },
     { "msgs": ["<img src='options/preview/1998.11.08.jpg'/>"] },
-    { "msgs": ["这是1997年11月08号当天天蝎座α-心宿二星云图~"] , "msgInputSpeed": 100 },
-    { "msgs": ["为什么不是今天？因为星座的运行是依据太阳历，也就是1997.11.8"] , "msgInputSpeed": 100 },
-    { "msgs": ["其实你哥对历法很模糊的，因为没有哪位值得我这么记住她的生日，绞尽脑汁~"] , "msgInputSpeed": 100 },
+    { "msgs": ["这是1995年12月08号当天摩羯座α-心宿二星云图~"], "msgInputSpeed": 100 },
+    { "msgs": ["为什么不是今天？因为星座的运行是依据太阳历，也就是1995.12.8"], "msgInputSpeed": 100 },
+    { "msgs": ["其实这玩意挺难弄的，但是为你就值~"], "msgInputSpeed": 100 },
     {
         "msgs": ["你知道为什么我们会相遇且如此默契嘛？"],
         "msgInputSpeed": 80,
@@ -71,26 +71,26 @@
                 "resolveKeyTexts": [],
                 "rejectKeyTexts": ["不知道呀"],
                 "rejectHitTexts": [
-                    "因为无论如何天蝎座总会与天蝎座星际相遇，",
-                    "它们俩是共生星系，",
+                    "因为无论如何摩羯座总会与天秤座相遇，",
+                    "虽然距离很远，但终将相遇~，",
                     "即使我将时间加速数倍，最终它们也不会分离，直至宇宙膨胀"
                 ]
             }
         }
     },
-    { "msgs": ["<img src='options/preview/天秤&天蝎2.jpg'/>"] },
-    { "msgs": ["这是天蝎座与天秤座（ScorpioNebulae&Libra）"] },
-    { "msgs": ["不要问我为啥不放视频（因为这玩意帧数太高了，你哥CPU&GPU真被榨干了）"] },
+    { "msgs": ["<img src='options/preview/天秤&魔蝎.jpg'/>"] },
+    { "msgs": ["这是摩羯座与天秤座（ScorpioNebulae&Libra）"] },
+    { "msgs": ["不要问我为啥不放视频（因为这玩意帧数太高了，害┭┮﹏┭┮CPU&GPU真被榨干了）"] },
     { "msgs": ["<img src='options/preview/Charcoal_Nebula.jpg'/>"] },
     { "msgs": ["<img src='options/preview/Myserious_Mountain.jpg'/>"] },
-    { "msgs": ["宇宙真的好奇妙啊~这些结果图都是哥一帧一帧调整优化出来的，"] },
+    { "msgs": ["宇宙真的太奇妙了~这些结果图都是张工一帧一帧调整优化出来的，"] },
     { "msgs": ["代码一行一行敲下来的。"] },
     { "msgs": ["费老鼻子劲呢"] },
     { "msgs": ["但是很值，"] },
     { "msgs": ["因为是你"] },
-    { "msgs": ["因为你是我妹"] },
-    { "msgs": ["感动嘛 哈哈是不是要哭啦（感动の泪水）"] },
+    { "msgs": ["因为你是我想走到最后的女孩~"] },
+    { "msgs": ["因为上次说为你写一封情书，所以必将实现它for you~"] },
     { "msgs": ["<img src='options/preview/感动到哭.png'/>"] },
-    { "msgs": ["生日快乐，蓉蓉~"], "msgInputSpeed": 80 },
+    { "msgs": ["节日快乐，蓉蓉~"], "msgInputSpeed": 80 },
     { "msgs": ["(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤"], "msgInputSpeed": 80 }
 ]
